@@ -16,6 +16,7 @@ softdepend:
 - Train_Carts
 - ViaVersion
 - WorldGuard
+- Bolt
 
 permissions:
   # Categories

@@ -44,6 +44,8 @@ integration:
     enabled: true
   GriefDefender:
     enabled: true
+  Bolt:
+    enabled: true
   GriefPrevention:
     enabled: true
   HeadDatabase:

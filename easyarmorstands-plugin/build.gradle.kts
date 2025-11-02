@@ -14,6 +14,7 @@ dependencies {
     api(project(":easyarmorstands-api"))
     api(project(":easyarmorstands-assets"))
     api(project(":easyarmorstands-plugin-dependencies", configuration = "shadow"))
+    runtimeOnly(project(":easyarmorstands-bolt"))
     runtimeOnly(project(":easyarmorstands-display"))
     runtimeOnly(project(":easyarmorstands-fancyholograms"))
     runtimeOnly(project(":easyarmorstands-headdatabase"))

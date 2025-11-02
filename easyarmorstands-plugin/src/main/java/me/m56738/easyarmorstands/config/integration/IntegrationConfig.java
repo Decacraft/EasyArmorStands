@@ -14,4 +14,6 @@ public class IntegrationConfig {
     public IntegrationEntryConfig fancyHolograms;
     @Setting("HeadDatabase")
     public IntegrationEntryConfig headDatabase;
+    @Setting("Bolt")
+    public IntegrationEntryConfig bolt;
 }

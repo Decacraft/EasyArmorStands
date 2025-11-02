@@ -7,6 +7,7 @@ pluginManagement {
 include("easyarmorstands-api")
 include("easyarmorstands-api-dependencies")
 include("easyarmorstands-assets")
+include("easyarmorstands-bolt")
 include("easyarmorstands-display")
 include("easyarmorstands-display-api")
 include("easyarmorstands-fancyholograms")
