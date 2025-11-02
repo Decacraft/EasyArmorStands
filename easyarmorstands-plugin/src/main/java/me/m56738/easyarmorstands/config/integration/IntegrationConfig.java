@@ -6,28 +6,12 @@ import me.m56738.easyarmorstands.lib.configurate.objectmapping.meta.Setting;
 
 @ConfigSerializable
 public class IntegrationConfig {
-    @Setting("BentoBox")
-    public IntegrationEntryConfig bentoBox;
     @Setting("WorldGuard")
     public IntegrationEntryConfig worldGuard;
     @Setting("PlotSquared")
     public IntegrationEntryConfig plotSquared;
     @Setting("FancyHolograms")
     public IntegrationEntryConfig fancyHolograms;
-    @Setting("GriefDefender")
-    public IntegrationEntryConfig griefDefender;
-    @Setting("GriefPrevention")
-    public IntegrationEntryConfig griefPrevention;
-    @Setting("HuskClaims")
-    public IntegrationEntryConfig huskClaims;
-    @Setting("Lands")
-    public LandsConfig lands;
-    @Setting("Residence")
-    public IntegrationEntryConfig residence;
-    @Setting("Towny")
-    public IntegrationEntryConfig towny;
     @Setting("HeadDatabase")
     public IntegrationEntryConfig headDatabase;
-    @Setting("TrainCarts")
-    public IntegrationEntryConfig trainCarts;
 }

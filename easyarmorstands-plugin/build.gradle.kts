@@ -14,25 +14,16 @@ dependencies {
     api(project(":easyarmorstands-api"))
     api(project(":easyarmorstands-assets"))
     api(project(":easyarmorstands-plugin-dependencies", configuration = "shadow"))
-    runtimeOnly(project(":easyarmorstands-bentobox"))
     runtimeOnly(project(":easyarmorstands-display"))
     runtimeOnly(project(":easyarmorstands-fancyholograms"))
-    runtimeOnly(project(":easyarmorstands-griefdefender"))
-    runtimeOnly(project(":easyarmorstands-griefprevention"))
     runtimeOnly(project(":easyarmorstands-headdatabase"))
-    runtimeOnly(project(":easyarmorstands-huskclaims"))
-    runtimeOnly(project(":easyarmorstands-lands"))
     runtimeOnly(project(":easyarmorstands-plotsquared"))
-    runtimeOnly(project(":easyarmorstands-residence"))
-    runtimeOnly(project(":easyarmorstands-towny"))
-    runtimeOnly(project(":easyarmorstands-traincarts"))
-    runtimeOnly(project(":easyarmorstands-worldguard-v6"))
     runtimeOnly(project(":easyarmorstands-worldguard-v7"))
 }
 
 tasks {
     runServer {
-        minecraftVersion("1.21.8")
+        minecraftVersion("1.21.10")
         javaLauncher = project.javaToolchains.launcherFor {
             languageVersion = JavaLanguageVersion.of(21)
         }

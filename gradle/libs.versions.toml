@@ -3,6 +3,7 @@ adventure-api = "4.22.0"
 adventure-platform = "4.4.1"
 bentobox = "2.7.0-SNAPSHOT"
 brigadier = "1.0.17"
+bolt = "1.1.83"
 bstats = "3.1.0"
 bukkit = "1.8.8-R0.1-SNAPSHOT"
 checker-qual = "3.49.2"
@@ -50,20 +51,12 @@ configurate-core = { module = "org.spongepowered:configurate-core", version.ref 
 configurate-yaml = { module = "org.spongepowered:configurate-yaml", version.ref = "configurate" }
 fancyholograms = { module = "de.oliver:FancyHolograms", version.ref = "fancyholograms" }
 gizmo-bukkit = { module = "me.m56738.gizmo:gizmo-bukkit", version.ref = "gizmo" }
-griefdefender-api = { module = "com.griefdefender:api", version.ref = "griefdefender" }
-griefprevention = { module = "com.github.GriefPrevention:GriefPrevention", version.ref = "griefprevention" }
 headdatabase-api = { module = "com.arcaniax:HeadDatabase-API", version.ref = "headdatabase-api" }
-huskclaims-bukkit = { module = "net.william278.huskclaims:huskclaims-bukkit", version.ref = "huskclaims" }
 item-nbt-api = { module = "de.tr7zw:item-nbt-api", version.ref = "item-nbt-api" }
 jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrains-annotations" }
 joml = { module = "org.joml:joml", version.ref = "joml" }
-lands-api = { module = "com.github.angeschossen:LandsAPI", version.ref = "lands" }
 plotsquared-bukkit = { module = "com.intellectualsites.plotsquared:plotsquared-bukkit", version.ref = "plotsquared" }
 plotsquared-core = { module = "com.intellectualsites.plotsquared:plotsquared-core", version.ref = "plotsquared" }
-residence = { module = "com.bekvon.bukkit.residence:Residence", version.ref = "residence" }
-towny = { module = "com.palmergames.bukkit.towny:towny", version.ref = "towny" }
-traincarts = { module = "com.bergerkiller.bukkit:TrainCarts", version.ref = "traincarts" }
-worldguard-v6 = { module = "com.sk89q.worldguard:worldguard-legacy", version.ref = "worldguard-v6" }
 worldguard-v7 = { module = "com.sk89q.worldguard:worldguard-bukkit", version.ref = "worldguard-v7" }
 
 [plugins]
